@@ -1,0 +1,50 @@
+{
+  "video_path": "sample_video1.mp4",
+  "analysis_time": 29.887052059173584,
+  "timestamp": "2025-09-03 15:06:17",
+  "detector_version": "v4.0_enhanced",
+  "results": {
+    "final_score": 0.05499999999999999,
+    "confidence": 0.82,
+    "breakdown": {
+      "feature_scores": {
+        "temporal": 0.3,
+        "eye": 0.0,
+        "pulse": 0.0,
+        "lighting": 0.0,
+        "texture": 0.3
+      },
+      "feature_weights": {
+        "temporal": 0.2,
+        "eye": 0.3,
+        "pulse": 0.2,
+        "lighting": 0.15,
+        "texture": 0.15
+      },
+      "evidence_count": 2,
+      "combination_bonus": 0.0,
+      "authenticity_boost": 0.05,
+      "weighted_score": 0.105,
+      "key_indicators": []
+    },
+    "temporal_data": {
+      "face_size_variation": 0.4491837857560576,
+      "face_warping": 0.597762874248022
+    },
+    "eye_data": {
+      "blink_rate": 66.0,
+      "pupil_distance_std": 0.2939697716294985
+    },
+    "pulse_data": {
+      "pulse_strength": 0.020064321046939414,
+      "pulse_snr": 20.964782351007717,
+      "estimated_bpm": 73.05194805194806
+    },
+    "lighting_data": {
+      "lighting_correlation": 0.31963088679760926
+    },
+    "texture_data": {
+      "texture_consistency": 0.3549409784859604
+    }
+  }
+}

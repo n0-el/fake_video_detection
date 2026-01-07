@@ -1,0 +1,5 @@
+numpy<2
+scipy<2
+opencv-python
+matplotlib
+dlib
